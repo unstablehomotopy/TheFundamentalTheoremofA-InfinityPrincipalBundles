@@ -394,8 +394,6 @@ Here are the packages that I use
 \ \\
 \ \\
 }
-
-
 \begin{document}
 
 \thispagestyle{empty} 
@@ -488,36 +486,6 @@ B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & b : \{ X₋₁ : ∞-Grpd�
 
 \section{Contents}
 
-\iffalse
-{\footnotesize
-\begin{center}
-\scalebox{1.1}{
-\begin{tabular}{|| l | l ||} 
-\hline
-\hline
-E⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat & e⃗ : \{C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D)\\
-\hline
-B⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat & b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D) \\
- \hline
-∂⃗ : (C : OperadicCategory ∞-Cat) → ∞-Cat.hom (E⃗.obj C) (B⃗.obj C) & ∇⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → (∞-Cat⁄D).hom (e⃗.obj F) (b⃗.obj F)\\
-\hline
-\hline
-E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & e⃡ : \{ X : ∞-Cat \} → \{ Y : ∞-Cat \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) \\
-\hline
-B⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) \\
- \hline
-∂⃡ : (G : OperadicCategory ∞-Grpd) → ∞-Grpd.hom (E⃡.obj G) (B⃡.obj G) & ∇⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Grpd.hom X Y) → (∞-Cat⁄D).hom (e⃡.obj F) (b⃡.obj F) \\
- \hline
- \hline 
-E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & e : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁)) \\
-\hline
-B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁))\\
-\hline
-∂ : (G₋₁ : OperadicGroup ∞-Grpd₋₁) → ∞-Grpd₋₁.hom (E.obj G₋₁) (B.obj G₋₁) & ∇ : \{ G₋₁ : ∞-Grpd₀ \} → \{ Y₀ : ∞-Grpd₀ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → (∞-Cat⁄D).hom (e.obj F) (b.obj F)  \\
-\hline
-\end{tabular}}
-\end{center}}
-\fi
 
 
 {
@@ -537,7 +505,13 @@ Introduction & \\
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{PART I: } BASED CONNECTED ∞-GROUPOIDS} \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 1: }The Classifying Space and the Total Space} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 1: } Operadic Groups and Operadic Group Actions} \\
+\hline \hline
+OperadicGroups & \\
+\hline
+OperadicGroupActions & \\
+\hline \hline
+\multicolumn{2}{||c||}{\texttt{Chapter 2: }The Classifying Space and the Total Space} \\
 \hline \hline
 E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ &  \\
 \hline
@@ -551,12 +525,12 @@ b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : �
 \hline
 ∇ : \{ G₋₁ : ∞-Grpd₀ \} → \{ Y₀ : ∞-Grpd₀ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → (∞-Cat⁄D).hom (e.obj F) (b.obj F) & \\
 \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 2: }The Recognition Theorem} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 3: }The Recognition Theorem} \\
 \hline \hline
  & \\
 \hline
  & \\
-\multicolumn{2}{||c||}{\texttt{Chapter 3: }The Classifying Space Theorem} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 4: }The Classifying Space Theorem} \\
 \hline \hline
  & \\
 \hline
@@ -564,7 +538,13 @@ b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : �
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{PART II: } ∞-GROUPOIDS} \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 4: }The Recognition Theorem for ∞-Groupoids} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 5: } Operadic Groupoids and Operadic Groupoid Actions} \\
+\hline \hline
+OperadicGroupoids & \\
+\hline 
+OperadicGroupoidActions & \\
+\hline \hline
+\multicolumn{2}{||c||}{\texttt{Chapter 6: }The Recognition Theorem for ∞-Groupoids} \\
 \hline \hline
 E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & \\
 \hline
@@ -578,12 +558,12 @@ b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → F
 \hline
 ∇⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Grpd.hom X Y) → (∞-Cat⁄D).hom (e⃡.obj F) (b⃡.obj F) & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 5: }The Recognition Theorem for ∞-Groupoids} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 7: }The Recognition Theorem for ∞-Groupoids} \\
 \hline \hline
  & \\
 \hline
  & \\
-\multicolumn{2}{||c||}{\texttt{Chapter 6: }The Classifying Space Theorem for ∞-Groupoids} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 8: }The Classifying Space Theorem for ∞-Groupoids} \\
 \hline \hline
  & \\
 \hline
@@ -591,7 +571,13 @@ b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → F
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{PART III: } ∞-CATEGORIES} \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 7: }The Recognition Theorem for ∞-Categories} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 9: } Operadic Categories and Operadic Presheaves} \\
+\hline \hline
+OperadicCategory & \\
+\hline
+OperadicPresheaves & \\
+\hline \hline
+\multicolumn{2}{||c||}{\texttt{Chapter 10: }The Recognition Theorem for ∞-Categories} \\
 \hline \hline
 E⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat  & \\ 
 \hline
@@ -605,13 +591,13 @@ b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Fun
 \hline
 ∇⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → (∞-Cat⁄D).hom (e⃗.obj F) (b⃗.obj F) & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 8: }The Recognition Theorem for ∞-Categories} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 11: }The Recognition Theorem for ∞-Categories} \\
 \hline \hline
  & \\
 \hline
  & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 9: }The Classifying Space Theorem for ∞-Categories} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 12: }The Classifying Space Theorem for ∞-Categories} \\
 \hline \hline
  & \\
 \hline
@@ -622,6 +608,7 @@ b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Fun
 
 
 
+\chapter{Introduction}
 
 \newpage
 
@@ -679,6 +666,38 @@ P : ∞-Grpd₋₁ ⭢ InternalGroup D(∞-Grpd₋₁) & p : (X₋₁ : ∞-Grpd
 \end{center}}
 \fi
 
+
+
+\iffalse
+{\footnotesize
+\begin{center}
+\scalebox{1.1}{
+\begin{tabular}{|| l | l ||} 
+\hline
+\hline
+E⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat & e⃗ : \{C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D)\\
+\hline
+B⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat & b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D) \\
+ \hline
+∂⃗ : (C : OperadicCategory ∞-Cat) → ∞-Cat.hom (E⃗.obj C) (B⃗.obj C) & ∇⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → (∞-Cat⁄D).hom (e⃗.obj F) (b⃗.obj F)\\
+\hline
+\hline
+E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & e⃡ : \{ X : ∞-Cat \} → \{ Y : ∞-Cat \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) \\
+\hline
+B⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) \\
+ \hline
+∂⃡ : (G : OperadicCategory ∞-Grpd) → ∞-Grpd.hom (E⃡.obj G) (B⃡.obj G) & ∇⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Grpd.hom X Y) → (∞-Cat⁄D).hom (e⃡.obj F) (b⃡.obj F) \\
+ \hline
+ \hline 
+E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & e : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁)) \\
+\hline
+B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁))\\
+\hline
+∂ : (G₋₁ : OperadicGroup ∞-Grpd₋₁) → ∞-Grpd₋₁.hom (E.obj G₋₁) (B.obj G₋₁) & ∇ : \{ G₋₁ : ∞-Grpd₀ \} → \{ Y₀ : ∞-Grpd₀ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → (∞-Cat⁄D).hom (e.obj F) (b.obj F)  \\
+\hline
+\end{tabular}}
+\end{center}}
+\fi
 
 
 
@@ -758,18 +777,6 @@ In this repository I construct six categorical equivalences:
 Continuous functions f : X ⭢ B.obj G correspond to 
 \fi
 
-\iffalse
-"try it out"
-\fi
-
-
-
-
-\chapter{ETCC Signature 4}
-
-\begin{enumerate}
-\item 
-\end{enumerate}
 
 \iffalse
 
@@ -900,6 +907,15 @@ infinitySUB(infinity-Cat)⁄C \arrow[u, "(χ${}^{\cdot}$).obj C", bend left] \ar
 \item After this we can consider the "free ???", but the product is a bit difficult.
 \item [[ℕ,γ⃗], X]
 \end{enumerate}
+
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{littlesquaresA.png}
+\end{center}
+\ \\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{littlesquaresB.png}
+\end{center}
 
 
 
