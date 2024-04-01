@@ -511,7 +511,7 @@ OperadicGroups & \\
 \hline
 OperadicGroupActions & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 2: }The Classifying Space and the Total Space} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 2: }B and E} \\
 \hline \hline
 E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ &  \\
 \hline
@@ -544,7 +544,7 @@ OperadicGroupoids & \\
 \hline 
 OperadicGroupoidActions & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 6: }The Recognition Theorem for ∞-Groupoids} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 6: }B⃡ and E⃡} \\
 \hline \hline
 E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & \\
 \hline
@@ -571,7 +571,7 @@ b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → F
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{PART III: } ∞-CATEGORIES} \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 9: } Operadic Categories and Operadic Presheaves} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 9: }Operadic Categories and Operadic Presheaves} \\
 \hline \hline
 OperadicCategory & \\
 \hline
@@ -605,8 +605,6 @@ b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Fun
 \hline \hline
 \end{longtable}
 }
-
-
 
 \chapter{Introduction}
 
@@ -705,7 +703,7 @@ B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & b : \{ X₋₁ : ∞-Grpd�
 
  and ```ThePuppeSequenceandTwoVariations'''. In ```InternalUniverses''', I considered straightening and unstraightening and three variations of it, which were each considered before and after the application of D(-). This made for the six diagrams depicted on page ???. In this repository, we consider the classifying space B.\\
 
-Let F : C ⭢ D : ∞-Cat.hom C D be an ∞-functor. Given either the C-infinity presheaf in ∞-Cat/C arising from F : ∞-Cat/D or the C-infinity presheaf in ∞-Cat/D arising from Id${}_{C}$ : ∞-Cat/C, we obtain in both cases an internal presheaf in the corresponding derived category. However, not all internal categories D : InternalCategory D(∞-Cat/C) arise from C-InfinityCategory ∞-Cat/C and not all internal presheaves S : InternalPresheaf D D(∞-Cat/C) arise from C-infinity presheaves over some C-infinity category in ∞-Cat/C.\\
+Let F : C ⭢ D : ∞-Cat.hom C D be an ∞-functor. Given either the C-infinity presheaf in ∞-Cat/C arising from F : ∞-Cat/D or the C-infinity presheaf in ∞-Cat/D arising from Id${}_{C}$ : ∞-Cat/C, we obtain in both cases an internal presheaf in the corresponding derived category. However, not all internal categories D : InternalCategory D(∞-Cat/C) arise from \iffalse C-InfinityCategory ∞-Cat/C \fi and not all internal presheaves S : InternalPresheaf D D(∞-Cat/C) arise from C-infinity presheaves over some C-infinity category in ∞-Cat/C.\\
 
 In ```InternalUniverses''', we showed the straightening/unstraightening categorical equivalence and three variations using the six Ω-functors and six E-functors, treating the situations before and after the application of D(-) seperately for a total of six goals.\\
 
@@ -719,21 +717,6 @@ In this section, we consider classifying spaces as well as a perspective about r
 \end{center}
 
 \thispagestyle{empty}
-
-\iffalse
-contractibility of the E's:
-
-- For a locally contractible group?
-
-https://en.wikipedia.org/wiki/Connection_(vector_bundle)
-\fi
-
-\iffalse
-Next the B can be thought of as pushing all of the information into ∞-Cat
-b can be throught of as pushing information into...
-
-MAKE SURE TO INCLUDE //
-\fi
 
 \ \\
 {\footnotesize
@@ -778,12 +761,64 @@ Continuous functions f : X ⭢ B.obj G correspond to
 \fi
 
 
-\iffalse
 
+
+
+\part{BASED CONNECTED ∞-GROUPOIDS}
+
+
+\chapter{Operadic Groups and Operadic Group Actions}
+
+\chapter{The Classifying Space and the Total Space}
+
+
+
+
+\part{∞-GROUPOIDS}
+
+
+\chapter{Operadic Groupoids and Operadic Groupoid Actions}
+
+\chapter{The Recognition Theorem for ∞-Groupoids}
+
+\chapter{The Classifying Space Theorem for ∞-Groupoids}
+
+
+
+
+
+
+\part{∞-CATEGORIES}
+
+
+\chapter{Operadic Categories and Operadic Presheaves}
+
+\chapter{The Recognition Theorem for ∞-Categories}
+
+\chapter{The Classifying Space Theorem for ∞-Categories}
+
+
+
+
+\iffalse
+contractibility of the E's:
+
+- For a locally contractible group?
+
+https://en.wikipedia.org/wiki/Connection_(vector_bundle)
+\fi
+
+\iffalse
+Next the B can be thought of as pushing all of the information into ∞-Cat
+b can be throught of as pushing information into...
+
+MAKE SURE TO INCLUDE //
+\fi
+
+
+\iffalse
 \chapter{ETCC Signature for linlib2024}
 
-
-\iffalse
 \begin{enumerate}
 \item NDNI 
 \item NDNII 
@@ -850,9 +885,11 @@ In ```Internal Universes''' I thought about the six variations of straightening 
 
 \ \\
 
+\iffalse 
 \begin{center}
 \includegraphics[width=0.9\textwidth]{ND20.png} \\
 \end{center}
+\fi
 
 
 \newpage
@@ -863,10 +900,12 @@ In ```Internal Universes''' I thought about the six variations of straightening 
 
 With these goals I want to create several ```remembrant''' adjunctions:
 
+\iffalse
 \begin{center}
 Ω${}^{∞}$ : ∞-Cat ⇄ C-InfinityCategory ∞-Cat
 \end{center}
-
+Ω${}^{∞}$ 
+\fi
 
 \begin{enumerate}
 \item γ⃗ γ⃡ γ
@@ -878,7 +917,7 @@ With these goals I want to create several ```remembrant''' adjunctions:
 
  
 
-Ω${}^{∞}$ 
+
 
 \begin{center}
 o⃗ : (C : ∞-Cat) → ∞-Cat⁄C ⭢ OperadicPresheaf (O⃗.obj C)
@@ -918,6 +957,12 @@ infinitySUB(infinity-Cat)⁄C \arrow[u, "(χ${}^{\cdot}$).obj C", bend left] \ar
 \end{center}
 
 
+\iffalse
+Iteration of the six operadic structures n times will give one of six versions of the little n-cubes operad ("operoid")
+\fi
+
+
+
 
 \newpage
 \newpage
@@ -926,6 +971,7 @@ infinitySUB(infinity-Cat)⁄C \arrow[u, "(χ${}^{\cdot}$).obj C", bend left] \ar
 
 \begin{enumerate}
 \item Serre, Jean-Pierre. "Homologie singulière des espaces fibrés. Applications." Annals of Mathematics 54, no. 3 (1951): 425-505.
+\item
 \end{enumerate}
 
 

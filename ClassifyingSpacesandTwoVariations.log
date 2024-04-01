@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  31 MAR 2024 06:06
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  1 APR 2024 12:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1051,7 +1051,408 @@ LaTeX Info: Redefining \nameref on input line 397.
 \openout6 = `ClassifyingSpacesandTwoVariations.out'.
 
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(93.95122pt, 426.39256pt, 93.95122pt)
+* v-part:(T,H,B)=(93.95122pt, 607.06755pt, 93.95122pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=426.39256pt
+* \textheight=607.06755pt
+* \oddsidemargin=21.68123pt
+* \evensidemargin=21.68123pt
+* \topmargin=-8.38626pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
-*geometry* driver: auto-dete
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+ []
+
+
+Overfull \hbox (438.35062pt too wide) in paragraph at lines 440--440
+ [][] 
+ []
+
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 443--443
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 473
+.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 473
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 47
+3.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (461.26936pt too wide) in paragraph at lines 473--474
+ [] 
+ []
+
+File: ll.png Graphic file (type bmp)
+<ll.png>
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+
+ []
+
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (147.2605pt too wide) in alignment at lines 493--606
+ [] [] 
+ []
+
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--709
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--723
+
+ []
+
+
+Overfull \hbox (665.61829pt too wide) in paragraph at lines 733--734
+ [] 
+ []
+
+[6]
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 7
+38.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd) [7]
+Underfull \hbox (badness 10000) in paragraph at lines 767--768
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 767--768
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 794--795
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--795
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 796--797
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 796--797
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
+
+ []
+
+File: mastertable.png Graphic file (type bmp)
+<mastertable.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Overfull \vbox (28.97546pt too high) has occurred while \output is active []
+
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
+
+ []
+
+File: ND01.png Graphic file (type bmp)
+<ND01.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
+
+ []
+
+File: ND11.png Graphic file (type bmp)
+<ND11.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
+
+ []
+
+File: ND21.png Graphic file (type bmp)
+<ND21.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 874--875
+
+ []
+
+File: ND00.png Graphic file (type bmp)
+<ND00.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+
+ []
+
+File: ND10.png Graphic file (type bmp)
+<ND10.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 886--887
+
+ []
+
+[22]
+File: littlesquaresA.png Graphic file (type bmp)
+<littlesquaresA.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 954--955
+
+ []
+
+File: littlesquaresB.png Graphic file (type bmp)
+<littlesquaresB.png>
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 969--969
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 969--969
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
+
+ []
+
+File: about.jpg Graphic file (type bmp)
+<about.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
+
+ []
+
+File: about2.jpg Graphic file (type bmp)
+<about2.jpg>
+[25] [26] (./ClassifyingSpacesandTwoVariations.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `ClassifyingSpacesandTwoVariations.out' has n
+ot changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 30861 strings out of 476179
+ 658141 string characters out of 5809544
+ 1106324 words of memory out of 5000000
+ 51049 multiletter control sequences out of 15000+600000
+ 482535 words of font info for 102 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 83i,13n,89p,607b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on ClassifyingSpacesandTwoVariations.pdf (26 pages).
