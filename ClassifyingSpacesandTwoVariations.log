@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  1 APR 2024 12:48
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  3 APR 2024 04:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1207,112 +1207,112 @@ Overfull \hbox (665.61829pt too wide) in paragraph at lines 733--734
 LaTeX Font Info:    Trying to load font information for U+bbold on input line 7
 38.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd) [7]
-Underfull \hbox (badness 10000) in paragraph at lines 767--768
+Underfull \hbox (badness 10000) in paragraph at lines 773--774
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--768
+Underfull \hbox (badness 10000) in paragraph at lines 773--774
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 770--771
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--771
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 777--778
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--778
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 784--785
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--785
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 800--801
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 800--801
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 796--797
+Underfull \hbox (badness 10000) in paragraph at lines 802--803
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--797
+Underfull \hbox (badness 10000) in paragraph at lines 802--803
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 798--799
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 798--799
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
 
  []
 
@@ -1326,26 +1326,26 @@ Overfull \vbox (28.97546pt too high) has occurred while \output is active []
 
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 858--859
 
  []
 
 File: ND01.png Graphic file (type bmp)
 <ND01.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--860
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
 
  []
 
 File: ND11.png Graphic file (type bmp)
 <ND11.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--866
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
@@ -1356,21 +1356,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 874--875
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
 
  []
 
 File: ND00.png Graphic file (type bmp)
 <ND00.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 880--881
+Underfull \hbox (badness 10000) in paragraph at lines 886--887
 
  []
 
 File: ND10.png Graphic file (type bmp)
 <ND10.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 886--887
+Underfull \hbox (badness 10000) in paragraph at lines 892--893
 
  []
 
@@ -1378,61 +1378,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 886--887
 File: littlesquaresA.png Graphic file (type bmp)
 <littlesquaresA.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 954--955
+Underfull \hbox (badness 10000) in paragraph at lines 960--961
 
  []
 
 File: littlesquaresB.png Graphic file (type bmp)
 <littlesquaresB.png>
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 969--969
+Underfull \hbox (badness 10000) in paragraph at lines 975--975
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--969
+Underfull \hbox (badness 10000) in paragraph at lines 975--975
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 980--987
+Underfull \hbox (badness 10000) in paragraph at lines 986--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--987
+Underfull \hbox (badness 10000) in paragraph at lines 986--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--987
+Underfull \hbox (badness 10000) in paragraph at lines 986--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--987
+Underfull \hbox (badness 10000) in paragraph at lines 986--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--987
+Underfull \hbox (badness 10000) in paragraph at lines 986--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--987
+Underfull \hbox (badness 10000) in paragraph at lines 986--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--990
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 
  []
 
 File: about.jpg Graphic file (type bmp)
 <about.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 998--999
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
 
  []
 
@@ -1449,7 +1449,7 @@ ot changed.
 Here is how much of TeX's memory you used:
  30861 strings out of 476179
  658141 string characters out of 5809544
- 1106324 words of memory out of 5000000
+ 1106323 words of memory out of 5000000
  51049 multiletter control sequences out of 15000+600000
  482535 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
