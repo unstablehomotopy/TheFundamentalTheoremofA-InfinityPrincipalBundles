@@ -35,7 +35,7 @@ Here are the packages that I use
 \newunicodechar{ₙ}{${}_{n}$}
 
 \newunicodechar{𝓓}{$\mathcal{D}$}
-\newunicodechar{∂}{$\partial$}
+\newunicodechar{∂}{$\partial$}%\raisebox{-1cm}{\partial}
 
 %\newunicodechar{π⃗}{$\stackrel{\arr}{\pi}$}
 
@@ -434,11 +434,13 @@ Here are the packages that I use
 
 %LEAN: 
 \begin{center}
-\begin{tcolorbox}[width=6.4in,colback={white},coltitle=white]
+\begin{tcolorbox}[width=6.3in,colback={white},coltitle=white]
 \begin{center}
+\scalebox{1.8}{\texttt{Two Theorems in Classifying Space Theory}}\\
 \ \\
-\scalebox{3}{Two Theorems in Classifying Space Theory and Two Variations Each}\\
+\scalebox{1.8}{\texttt{and}}\\
 \ \\
+\scalebox{1.8}{\texttt{Two Variations Each}}
 \end{center}
 \end{tcolorbox}
 \end{center}
@@ -446,37 +448,57 @@ Here are the packages that I use
 
 {\footnotesize
 \begin{center}
-\scalebox{1.1}{
+\scalebox{0.89}{
 \begin{tabular}{|| l | l ||} 
 \hline
+E⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat \\
 \hline
-E⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat & e⃗ : \{C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D)\\
-\hline
-B⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat & b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D) \\
+B⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat \\
  \hline
-∂⃗ : (C : OperadicCategory ∞-Cat) → ∞-Cat.hom (E⃗.obj C) (B⃗.obj C) & ∇⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → (∞-Cat⁄D).hom (e⃗.obj F) (b⃗.obj F)\\
+∂⃗ : (C : OperadicCategory ∞-Cat) → ∞-Cat.hom (E⃗.obj C) (B⃗.obj C) \\
 \hline
 \hline
-E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & e⃡ : \{ X : ∞-Cat \} → \{ Y : ∞-Cat \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) \\
+E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd \\
 \hline
-B⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) \\
+B⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd \\
  \hline
-∂⃡ : (G : OperadicCategory ∞-Grpd) → ∞-Grpd.hom (E⃡.obj G) (B⃡.obj G) & ∇⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Grpd.hom X Y) → (∞-Cat⁄D).hom (e⃡.obj F) (b⃡.obj F) \\
+∂⃡ : (G : OperadicCategory ∞-Grpd) → ∞-Grpd.hom (E⃡.obj G) (B⃡.obj G) \\
  \hline
  \hline 
-E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & e : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁)) \\
+E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ \\
 \hline
-B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ & b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁))\\
+B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ \\
 \hline
-∂ : (G₋₁ : OperadicGroup ∞-Grpd₋₁) → ∞-Grpd₋₁.hom (E.obj G₋₁) (B.obj G₋₁) & ∇ : \{ G₋₁ : ∞-Grpd₀ \} → \{ Y₀ : ∞-Grpd₀ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → (∞-Cat⁄D).hom (e.obj F) (b.obj F)  \\
+∂ : (G₋₁ : OperadicGroup ∞-Grpd₋₁) → ∞-Grpd₋₁.hom (E.obj G₋₁) (B.obj G₋₁) \\
+\hline
+\hline
+e⃗ : \{C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D)\\
+\hline
+b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D) \\
+\hline
+∇⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → (∞-Cat⁄D).hom (e⃗.obj F) (b⃗.obj F)\\
+\hline
+\hline
+e⃡ : \{ X : ∞-Cat \} → \{ Y : ∞-Cat \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y)\\
+\hline
+b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y)\\
+\hline
+∇⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Grpd.hom X Y) → (∞-Cat⁄D).hom (e⃡.obj F) (b⃡.obj F)\\
+\hline
+\hline
+e : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁)) \\
+\hline
+b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁))\\
+\hline
+∇ : \{ G₋₁ : ∞-Grpd₀ \} → \{ Y₀ : ∞-Grpd₀ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → (∞-Cat⁄D).hom (e.obj F) (b.obj F)\\
 \hline
 \end{tabular}}
 \end{center}}
 
 %LEAN: 
 \begin{center}
-\begin{tcolorbox}[width=4.13in,colback={white},coltitle=white]
-\scalebox{1.5}{E. Dean Young}
+\begin{tcolorbox}[width=1.8in,colback={white},coltitle=white]
+\scalebox{1.6}{E. Dean Young}
 \end{tcolorbox}
 \end{center}
 
@@ -513,17 +535,17 @@ OperadicGroupActions & \\
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{Chapter 2: }B and E} \\
 \hline \hline
-E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ &  \\
+E  &  \\
 \hline
-e : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁))  & \\
+e  & \\
 \hline
-B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ &  \\
+B &  \\
 \hline
-b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁)) & \\
+b & \\
 \hline
-∂ : (G₋₁ : OperadicGroup ∞-Grpd₋₁) → ∞-Grpd₋₁.hom (E.obj G₋₁) (B.obj G₋₁) &  \\
+∂ &  \\
 \hline
-∇ : \{ G₋₁ : ∞-Grpd₀ \} → \{ Y₀ : ∞-Grpd₀ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → (∞-Cat⁄D).hom (e.obj F) (b.obj F) & \\
+∇  & \\
 \hline
 \multicolumn{2}{||c||}{\texttt{Chapter 3: }The Recognition Theorem} \\
 \hline \hline
@@ -546,17 +568,17 @@ OperadicGroupoidActions & \\
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{Chapter 6: }B⃡ and E⃡} \\
 \hline \hline
-E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & \\
+E⃡ & \\
 \hline
-e⃡ : \{ X : ∞-Cat \} → \{ Y : ∞-Cat \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) & \\
+e⃡  & \\
 \hline
-B⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd & \\
+B⃡  & \\
 \hline
-b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y) & \\
+b⃡  & \\
  \hline
-∂⃡ : (G : OperadicCategory ∞-Grpd) → ∞-Grpd.hom (E⃡.obj G) (B⃡.obj G) & \\
+∂⃡  & \\
 \hline
-∇⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Grpd.hom X Y) → (∞-Cat⁄D).hom (e⃡.obj F) (b⃡.obj F) & \\
+∇⃡ & \\
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{Chapter 7: }The Recognition Theorem for ∞-Groupoids} \\
 \hline \hline
@@ -579,17 +601,17 @@ OperadicPresheaves & \\
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{Chapter 10: }The Recognition Theorem for ∞-Categories} \\
 \hline \hline
-E⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat  & \\ 
+E⃗  & \\ 
 \hline
-e⃗ : \{C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D) & \\
+e⃗ & \\
 \hline
-B⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat & \\
+B⃗ & \\
 \hline
-b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D) & \\
+b⃗ & \\
  \hline
-∂⃗ : (C : OperadicCategory ∞-Cat) → ∞-Cat.hom (E⃗.obj C) (B⃗.obj C) & \\
+∂⃗ & \\
 \hline
-∇⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → (∞-Cat⁄D).hom (e⃗.obj F) (b⃗.obj F) & \\
+∇⃗ & \\
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{Chapter 11: }The Recognition Theorem for ∞-Categories} \\
 \hline \hline
@@ -608,9 +630,7 @@ b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Fun
 
 \chapter{Introduction}
 
-\newpage
-
-In ```TheWhiteheadTheoremandTwoVariations''', I will be defining six "internal" structures based on ```Galois Theories''' by Janelidze and Borceux, as well as six ```operadic''' structures 
+In ```TheWhiteheadTheoremandTwoVariations''', we will define six "internal" structures based on the ones found in ```Galois Theories''' by Janelidze and Borceux, as well as six ```operadic''' structures.
 
 \iffalse
 {\footnotesize
@@ -632,6 +652,58 @@ $\texttt{InternalGroup\_(-) : Cat\_(-) → Cat\_(-)}$ & $\texttt{InternalGroupAc
  \hline
 \end{tabular}}
 \end{center}}
+\fi
+
+{\footnotesize
+\begin{center}
+\scalebox{0.89}{
+\begin{tabular}{|| l | l ||} 
+\hline
+E⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat \\
+\hline
+B⃗ : Functor (OperadicCategory ∞-Cat) ∞-Cat \\
+ \hline
+∂⃗ : (C : OperadicCategory ∞-Cat) → ∞-Cat.hom (E⃗.obj C) (B⃗.obj C) \\
+\hline
+\hline
+E⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd \\
+\hline
+B⃡ : Functor (OperadicGroupoid ∞-Grpd) ∞-Grpd \\
+ \hline
+∂⃡ : (G : OperadicCategory ∞-Grpd) → ∞-Grpd.hom (E⃡.obj G) (B⃡.obj G) \\
+ \hline
+ \hline 
+E : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ \\
+\hline
+B : OperadicGroup ∞-Grpd₋₁ ⭢ ∞-Grpd₋₁ \\
+\hline
+∂ : (G₋₁ : OperadicGroup ∞-Grpd₋₁) → ∞-Grpd₋₁.hom (E.obj G₋₁) (B.obj G₋₁) \\
+\hline
+\hline
+e⃗ : \{C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D)\\
+\hline
+b⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → Functor (OperadicPresheaf (O⃗.obj D)) (∞-Cat⁄D) \\
+\hline
+∇⃗ : \{ C : ∞-Cat \} → \{ D : ∞-Cat \} → (F : ∞-Cat.hom C D) → (∞-Cat⁄D).hom (e⃗.obj F) (b⃗.obj F)\\
+\hline
+\hline
+e⃡ : \{ X : ∞-Cat \} → \{ Y : ∞-Cat \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y)\\
+\hline
+b⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Cat.hom X Y) → Functor (OperadicGroupoidAction (O⃡.obj Y)) (∞-Grpd⁄Y)\\
+\hline
+∇⃡ : \{ X : ∞-Grpd \} → \{ Y : ∞-Grpd \} → (F : ∞-Grpd.hom X Y) → (∞-Cat⁄D).hom (e⃡.obj F) (b⃡.obj F)\\
+\hline
+\hline
+e : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁)) \\
+\hline
+b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → Functor (∞-Grpd₋₁⁄Y₋₁) (OperadicGroupAction (O.obj Y₋₁))\\
+\hline
+∇ : \{ G₋₁ : ∞-Grpd₀ \} → \{ Y₀ : ∞-Grpd₀ \} → (F : ∞-Grpd₋₁.hom X₋₁ Y₋₁) → (∞-Cat⁄D).hom (e.obj F) (b.obj F)\\
+\hline
+\end{tabular}}
+\end{center}}
+
+\iffalse
 \ \\
 {\footnotesize
 \begin{center}
@@ -763,9 +835,6 @@ In this repository I construct six categorical equivalences:
 \iffalse
 Continuous functions f : X ⭢ B.obj G correspond to 
 \fi
-
-
-
 
 
 

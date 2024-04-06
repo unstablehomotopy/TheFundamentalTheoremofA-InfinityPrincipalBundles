@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  5 APR 2024 04:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  6 APR 2024 06:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1091,33 +1091,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--434
  []
 
 
-Overfull \hbox (438.35062pt too wide) in paragraph at lines 440--440
- [][] 
- []
-
-
-Overfull \hbox (36.135pt too wide) in paragraph at lines 443--443
+Overfull \hbox (28.90865pt too wide) in paragraph at lines 445--445
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 473
+LaTeX Font Info:    Trying to load font information for U+msa on input line 495
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 473
+LaTeX Font Info:    Trying to load font information for U+msb on input line 495
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 47
-3.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 49
+5.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -1129,8 +1124,13 @@ pt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
 
-Overfull \hbox (461.26936pt too wide) in paragraph at lines 473--474
+Overfull \hbox (30.00362pt too wide) in paragraph at lines 495--496
  [] 
+ []
+
+
+Overfull \hbox (2.04414pt too wide) in paragraph at lines 501--502
+[][] 
  []
 
 File: ll.png Graphic file (type bmp)
@@ -1138,17 +1138,17 @@ File: ll.png Graphic file (type bmp)
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
 
  []
 
@@ -1158,161 +1158,167 @@ Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scr
 pt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
-
-Overfull \hbox (147.2605pt too wide) in alignment at lines 493--606
- [] [] 
- []
-
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ∇ (U+2207) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (30.00362pt too wide) in paragraph at lines 703--704
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
+Underfull \hbox (badness 10000) in paragraph at lines 793--795
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 708--709
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 721--723
-
- []
-
-
-Overfull \hbox (665.61829pt too wide) in paragraph at lines 733--734
+Overfull \hbox (665.61829pt too wide) in paragraph at lines 805--806
  [] 
  []
 
 [6]
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 7
-38.
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 8
+10.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd) [7]
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
+Underfull \hbox (badness 10000) in paragraph at lines 842--843
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
+Underfull \hbox (badness 10000) in paragraph at lines 842--843
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 776--777
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 776--777
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 778--779
+Underfull \hbox (badness 10000) in paragraph at lines 847--848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 778--779
+Underfull \hbox (badness 10000) in paragraph at lines 847--848
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 786--787
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--787
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 788--789
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 788--789
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 790--791
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--791
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+Underfull \hbox (badness 10000) in paragraph at lines 866--867
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+Underfull \hbox (badness 10000) in paragraph at lines 866--867
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 802--803
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 802--803
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
@@ -1326,26 +1332,26 @@ Overfull \vbox (28.97546pt too high) has occurred while \output is active []
 
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+Underfull \hbox (badness 10000) in paragraph at lines 925--926
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 858--859
+Underfull \hbox (badness 10000) in paragraph at lines 927--928
 
  []
 
 File: ND01.png Graphic file (type bmp)
 <ND01.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--866
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
 File: ND11.png Graphic file (type bmp)
 <ND11.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--872
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
 
  []
 
@@ -1356,21 +1362,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 880--881
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
 
  []
 
 File: ND00.png Graphic file (type bmp)
 <ND00.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 886--887
+Underfull \hbox (badness 10000) in paragraph at lines 955--956
 
  []
 
 File: ND10.png Graphic file (type bmp)
 <ND10.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--893
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
@@ -1378,54 +1384,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 892--893
 File: littlesquaresA.png Graphic file (type bmp)
 <littlesquaresA.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
 
  []
 
 File: littlesquaresB.png Graphic file (type bmp)
 <littlesquaresB.png>
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 974--974
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1043
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 974--974
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1043
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 985--992
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--992
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--992
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--992
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--992
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--992
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 994--995
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
 
  []
 
@@ -1440,10 +1446,10 @@ ot changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30851 strings out of 476179
- 657992 string characters out of 5809544
- 1106323 words of memory out of 5000000
- 51040 multiletter control sequences out of 15000+600000
+ 30853 strings out of 476179
+ 658044 string characters out of 5809544
+ 1096323 words of memory out of 5000000
+ 51042 multiletter control sequences out of 15000+600000
  482535 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  83i,13n,89p,607b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
