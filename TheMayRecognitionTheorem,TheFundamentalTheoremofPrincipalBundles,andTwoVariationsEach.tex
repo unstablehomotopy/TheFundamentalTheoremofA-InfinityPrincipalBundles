@@ -16,6 +16,18 @@ Here are the packages that I use
 \usepackage{tikz-cd}
 
 
+\usepackage{lipsum} % for generating dummy text
+\usepackage{draftwatermark} % for adding watermark
+\usepackage{xcolor} % for colors
+
+
+% Define the draft watermark
+\SetWatermarkText{\textcolor{red}{ND}}
+\SetWatermarkScale{2} % Adjust the size of the watermark
+
+
+
+
 
 
 
@@ -35,7 +47,8 @@ Here are the packages that I use
 \newunicodechar{ₙ}{${}_{n}$}
 
 \newunicodechar{𝓓}{$\mathcal{D}$}
-\newunicodechar{∂}{$\partial$}%\raisebox{-1cm}{\partial}
+\newunicodechar{∂}{\raisebox{-0.06cm}{$\partial$}}
+\newunicodechar{∇}{\scalebox{0.69}[1.1]{\raisebox{0.0cm}{$\scriptscriptstyle \nabla$}}}
 
 %\newunicodechar{π⃗}{$\stackrel{\arr}{\pi}$}
 
@@ -436,11 +449,11 @@ Here are the packages that I use
 \begin{center}
 \begin{tcolorbox}[width=6.3in,colback={white},coltitle=white]
 \begin{center}
-\scalebox{1.8}{\texttt{Two Theorems in Classifying Space Theory}}\\
+\scalebox{1.8}{\texttt{The Recognition Theorem,}}\\
 \ \\
-\scalebox{1.8}{\texttt{and}}\\
+\scalebox{1.8}{\texttt{The Fundamental Theorem of Principal Bundles,}}\\
 \ \\
-\scalebox{1.8}{\texttt{Two Variations Each}}
+\scalebox{1.8}{\texttt{and Two Variations Each}}
 \end{center}
 \end{tcolorbox}
 \end{center}
@@ -844,6 +857,8 @@ Continuous functions f : X ⭢ B.obj G correspond to
 
 \chapter{Operadic Groups and Operadic Group Actions}
 
+
+
 \chapter{The Classifying Space and the Total Space}
 
 
@@ -1049,28 +1064,6 @@ Iteration of the six operadic structures n times will give one of six versions o
 \end{enumerate}
 
 
-
-\newpage 
-\ \\
-\ \\
-\ \\
-\ \\
-\ \\               
-\ \\
-%LEAN: 
-\begin{center}
-\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{About the Author} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Yellow,coltitle=black]
-Dean Young is a master's student at New York University, where he studies mathematics. \\
-\begin{center}
-\includegraphics[width=7.5cm,height=5cm]{about.jpg}
-\end{center}
-\end{tcolorbox}
-\end{center}
-
-\newpage
-\ \\
-\thispagestyle{empty}
-\pagecolor{Yellow}
 
 
 
