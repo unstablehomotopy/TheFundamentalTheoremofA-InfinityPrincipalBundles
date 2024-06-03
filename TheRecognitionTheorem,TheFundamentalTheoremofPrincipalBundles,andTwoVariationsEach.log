@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  13 APR 2024 18:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  24 MAY 2024 19:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariat
-ionsEach.tex
+**TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariation
+sEach.tex
 
-(./TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVaria
-tionsEach.tex
+(./TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariatio
+nsEach.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
@@ -365,14 +365,14 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipal
-Bundles,andTwoVariationsEach.w18")...executed.
+runsystem(uname -s > "TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBun
+dles,andTwoVariationsEach.w18")...executed.
 
 
-(./TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVaria
-tionsEach.w18)
-runsystem(rm -- "TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundl
-es,andTwoVariationsEach.w18")...executed.
+(./TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariatio
+nsEach.w18)
+runsystem(rm -- "TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,
+andTwoVariationsEach.w18")...executed.
 
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty
@@ -406,8 +406,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks22
 \c@listing=\count334
 )
-runsystem(mkdir -p _minted-TheMayRecognitionTheorem,TheFundamentalTheoremofPrin
-cipalBundles,andTwoVariationsEach)...executed.
+runsystem(mkdir -p _minted-TheRecognitionTheorem,TheFundamentalTheoremofPrincip
+alBundles,andTwoVariationsEach)...executed.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -930,17 +930,17 @@ Package: draftwatermark 2020/12/08 3.0 Put a gray textual watermark on document
 \c@subsectioncount=\count383
 \c@chaptercount=\count384
 \c@partcount=\count385
-runsystem(which pygmentize && touch TheMayRecognitionTheorem,TheFundamentalTheo
-remofPrincipalBundles,andTwoVariationsEach.aex)...executed.
+runsystem(which pygmentize && touch TheRecognitionTheorem,TheFundamentalTheorem
+ofPrincipalBundles,andTwoVariationsEach.aex)...executed.
 
-runsystem(rm TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,a
-ndTwoVariationsEach.aex)...executed.
+runsystem(rm TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andT
+woVariationsEach.aex)...executed.
 
 
-(./TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVaria
-tionsEach.aux)
-\openout1 = `TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,a
-ndTwoVariationsEach.aux'.
+(./TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariatio
+nsEach.aux)
+\openout1 = `TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andT
+woVariationsEach.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 410.
 LaTeX Font Info:    ... okay on input line 410.
@@ -1060,13 +1060,13 @@ LaTeX Info: Redefining \ref on input line 410.
 LaTeX Info: Redefining \pageref on input line 410.
 LaTeX Info: Redefining \nameref on input line 410.
 
-(./TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVaria
-tionsEach.out)
-(./TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVaria
-tionsEach.out)
+(./TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariatio
+nsEach.out)
+(./TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariatio
+nsEach.out)
 \@outlinefile=\write6
-\openout6 = `TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,a
-ndTwoVariationsEach.out'.
+\openout6 = `TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andT
+woVariationsEach.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1159,203 +1159,268 @@ Underfull \hbox (badness 10000) in paragraph at lines 519--520
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 5
+76.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd) [3]
+Underfull \hbox (badness 10000) in paragraph at lines 646--646
 
  []
 
 
-Overfull \hbox (30.00362pt too wide) in paragraph at lines 716--717
+Underfull \hbox (badness 10000) in paragraph at lines 646--646
+
+ []
+
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 801--802
+[][][] 
+ []
+
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 805--806
+[][][] 
+ []
+
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 807--808
+[][][] 
+ []
+
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 811--812
+[][][] 
+ []
+
+
+Overfull \hbox (30.00362pt too wide) in paragraph at lines 888--889
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 789--790
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--794
+Underfull \hbox (badness 10000) in paragraph at lines 965--966
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 795--796
+Underfull \hbox (badness 10000) in paragraph at lines 967--968
 
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 806--808
-
- []
-
-
-Overfull \hbox (665.61829pt too wide) in paragraph at lines 818--819
- [] 
  []
 
 [6]
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 8
-23.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd) [7]
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
+Underfull \hbox (badness 10000) in paragraph at lines 969--970
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 858--859
+Underfull \hbox (badness 10000) in paragraph at lines 973--975
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 858--859
+Overfull \hbox (665.61829pt too wide) in paragraph at lines 985--986
+ [] 
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 867--868
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 867--868
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 870--871
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--871
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 874--875
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--875
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 886--887
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 886--887
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
 
  []
 
-File: mastertable.png Graphic file (type bmp)
-<mastertable.png>
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ []
 
- [18]
-Overfull \vbox (28.97546pt too high) has occurred while \output is active []
 
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
+
+ []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 940--941
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 942--943
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 
  []
 
 File: ND01.png Graphic file (type bmp)
 <ND01.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--950
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
 
  []
 
 File: ND11.png Graphic file (type bmp)
 <ND11.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 955--956
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
 
  []
 
@@ -1364,101 +1429,64 @@ File: ND21.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
+ [24]
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 
  []
 
 File: ND00.png Graphic file (type bmp)
 <ND00.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 970--971
+Underfull \hbox (badness 10000) in paragraph at lines 1127--1128
 
  []
 
 File: ND10.png Graphic file (type bmp)
 <ND10.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
 
  []
 
-[22]
+[26]
 File: littlesquaresA.png Graphic file (type bmp)
 <littlesquaresA.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1045--1046
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1203
 
  []
 
 File: littlesquaresB.png Graphic file (type bmp)
 <littlesquaresB.png>
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1215
 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
-
- []
-
-File: about.jpg Graphic file (type bmp)
-<about.jpg>
-[25] [26]
-(./TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVaria
-tionsEach.aux)
+[28]
+(./TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles,andTwoVariatio
+nsEach.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `TheMayRecognitionTheorem,TheFundamentalTheor
-emofPrincipalBundles,andTwoVariationsEach.out' has not changed.
+Package rerunfilecheck Info: File `TheRecognitionTheorem,TheFundamentalTheoremo
+fPrincipalBundles,andTwoVariationsEach.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30951 strings out of 476179
- 662349 string characters out of 5809544
- 1099429 words of memory out of 5000000
- 51135 multiletter control sequences out of 15000+600000
- 482543 words of font info for 103 fonts, out of 8000000 for 9000
+ 30943 strings out of 476179
+ 662165 string characters out of 5809544
+ 1108384 words of memory out of 5000000
+ 51128 multiletter control sequences out of 15000+600000
+ 482910 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 83i,13n,89p,659b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,14n,89p,656b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TheMayRecognitionTheorem,TheFundamentalTheoremofPrincipalBund
-les,andTwoVariationsEach.pdf (26 pages).
+Output written on TheRecognitionTheorem,TheFundamentalTheoremofPrincipalBundles
+,andTwoVariationsEach.pdf (28 pages).

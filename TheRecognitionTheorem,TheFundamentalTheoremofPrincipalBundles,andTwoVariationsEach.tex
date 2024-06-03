@@ -77,7 +77,7 @@ Here are the packages that I use
 \newunicodechar{ᵐ}{${}^{\texttt{m}}$}
 \newunicodechar{ⁿ}{${}^{\texttt{n}}$}
 \newunicodechar{ᵒ}{${}^{\texttt{o}}$}
-\newunicodechar{ᵖ}{${}^{\texttt{ω}}$}
+\newunicodechar{ᵖ}{${}^{\texttt{p}}$}
 \newunicodechar{ʳ}{${}^{\texttt{r}}$}
 \newunicodechar{ˢ}{${}^{\texttt{s}}$}
 \newunicodechar{ᵗ}{${}^{\texttt{t}}$}
@@ -519,9 +519,131 @@ b : \{ X₋₁ : ∞-Grpd₋₁ \} → \{ Y₋₁ : ∞-Grpd₋₁ \} → (F : �
 \ \\
 
 
+\iffalse
+░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓██████▓▒░ ░▒▓██████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░   
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+ ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓██████▓▒░ ░▒▓██████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░
+\fi
+\newpage
+\section{Unicode}
+
+Here is a list of the unicode characters we will use:
+
+{\footnotesize
+\begin{center}
+\begin{tabular}{|| l || l || l || l ||} 
+\hline
+$\texttt{Symbol}$ & $\texttt{Unicode}$ & \texttt{VSCode shortcut} & $\texttt{Use}$\\
+\hline
+\hline
+\multicolumn{4}{||c||}{\texttt{Lean's Kernel}} \\
+\hline
+\hline
+× & 2A2F & \backslash\texttt{times} & Product of types\\
+\hline
+→ & 2192 & \backslash\texttt{rightarrow}  & Hom of types\\
+\hline
+⟨,⟩ & 27E8,27E9 & \backslash\texttt{langle},\backslash\texttt{rangle}  & Product term introduction\\
+\hline
+↦ & 21A6 &\backslash\texttt{mapsto}  & Hom term introduction\\
+\hline
+∧ & 2227 &\backslash\texttt{wedge}  & Conjunction \\
+\hline
+∨ & 2228 &\backslash\texttt{vee}  & Disjunction \\
+\hline
+∀ & 2200 &\backslash\texttt{forall}  & Universal quantification \\
+\hline
+∃ & 2203 &\backslash\texttt{exists}  & Existential quantification\\
+\hline
+¬ & 00AC &\backslash\texttt{neg}  & Negation\\
+\hline
+\hline
+\multicolumn{4}{||c||}{\texttt{Variables and Constants}} \\
+\hline
+\hline
+ᵃ,ᵇ,ᶜ,...,ᶻ & 1D52,1D56 & & Variables and constants \\
+\hline
+⁰,¹,²,³,⁴,⁵,⁶,⁷,⁸,⁹ & 1D52,1D56 &  & Variables and constants \\
+\hline
+⁻ & 207B &  & Variables and constants \\
+\hline
+₀,₁,₂,₃,₄,₅,₆,₇,₈,₉ & 2080 - 2089 & \backslash\texttt{0}-\backslash\texttt{9} & Variables and constants\\
+\hline
+𝔸,...,ℤ & 1D538 &  &  \\
+\hline
+𝕒,...,𝕫 & 1D552 &  &  \\
+\hline
+𝐀,...,𝐙 & 1D41A &  &  \\
+\hline
+𝐚,...,𝐳 & 1D41A &  &  \\
+\hline
+\texttt{α}-\texttt{ω},\texttt{A}-\texttt{Ω} & 03B1-03C9 & & Variables and constants\\
+\hline
+\hline
+\multicolumn{4}{||c||}{\texttt{Categories}} \\
+\hline
+\hline
+ 𝟙 & 1D7D9 & \backslash\texttt{b1}  & The identity morphism\\
+\hline
+ ∘ & 2218 & \backslash\texttt{circ}  & Composition\\
+ \hline
+ \hline
+ \multicolumn{4}{||c||}{\texttt{Bicategories}} \\
+ \hline 
+ \hline
+ • & 2022  & \backslash\texttt{smul}  & Horizontal composition of objects\\ 
+  \hline
+  \hline
+ \multicolumn{4}{||c||}{\texttt{Adjunctions}} \\
+\hline
+\hline
+⇄ & 21C4 & \backslash\texttt{rightleftarrows}  & Adjunctions \\
+\hline
+⇆ & 21C6 & \backslash\texttt{leftrightarrows}  & Adjunctions \\
+\hline
+𛲔 & 1BC94 &  & Right adjoints\\
+\hline
+ॱ & 0971 &  & Left adjoints \\
+\hline
+⊣ & 22A3 & \backslash\texttt{dashv}  & The condition that two functors are adjoint \\
+\hline
+\hline
+\multicolumn{4}{||c||}{\texttt{Monads and Comonads}} \\
+\hline
+\hline
+?,¿ & 003F, 00BF & ?,\backslash\texttt{?}  & The corresponding (co)monad of an adjunction\\
+\hline
+!,¡ & 0021, 00A1 & !, \backslash\texttt{!}  & The (co)-Eilenberg-(co)-Moore adjunction \\
+\hline
+ꜝ,ꜞ & A71D, A71E &  & The (co)exponential maps\\
+\hline
+\hline
+\multicolumn{4}{||c||}{\texttt{Miscellaneous}} \\
+\hline
+\hline
+∼ & 223C & \backslash\texttt{sim} & Homotopies \\
+\hline
+≃ & 2243 & \backslash\texttt{equiv}  & Equivalences \\
+\hline
+≅ & 2245 & \backslash\texttt{cong}  & Isomorphisms \\
+\hline
+⊥ & 22A5 & \backslash\texttt{bot}  & The overobject classifier \\
+\hline
+∞ & 221E & \backslash\texttt{infty}  & Infinity categories and infinity groupoids\\ 
+\hline
+${}^{\leftrightarrow}$ & 20D7 &  & Homotopical operations on ∞-categories \\
+\hline
+${}^{\rightarrow}$ & 20E1 &  & Homotopical operations on ∞-groupoids \\
+\hline
+\end{tabular}
+\end{center}}
+
+
 \section{Contents}
-
-
 
 {
 \footnotesize
@@ -571,15 +693,48 @@ b & \\
 \hline
  & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{PART II: } ∞-GROUPOIDS} \\
+\multicolumn{2}{||c||}{\texttt{PART II: } BASED CONNECTED ∞-CATEGORIES} \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 5: } Operadic Groupoids and Operadic Groupoid Actions} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 5: } Operadic Monoids and Operadic Monoid Actions} \\
+\hline \hline
+OperadicMonoids & \\
+\hline 
+OperadicMonoidActions & \\
+\hline \hline
+\multicolumn{2}{||c||}{\texttt{Chapter 6: }? and ?} \\
+\hline \hline
+ & \\
+\hline
+  & \\
+\hline
+  & \\
+\hline
+  & \\
+ \hline
+  & \\
+\hline
+  & \\
+\hline \hline
+\multicolumn{2}{||c||}{\texttt{Chapter 7: }The Recognition Theorem for ∞-Groupoids} \\
+\hline \hline
+ & \\
+\hline
+ & \\
+\multicolumn{2}{||c||}{\texttt{Chapter 8: }The Classifying Space Theorem for ∞-Groupoids} \\
+\hline \hline
+ & \\
+\hline
+ & \\
+\hline \hline
+\multicolumn{2}{||c||}{\texttt{PART III: } ∞-GROUPOIDS} \\
+\hline \hline
+\multicolumn{2}{||c||}{\texttt{Chapter 9: } Operadic Groupoids and Operadic Groupoid Actions} \\
 \hline \hline
 OperadicGroupoids & \\
 \hline 
 OperadicGroupoidActions & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 6: }B⃡ and E⃡} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 10: }B⃡ and E⃡} \\
 \hline \hline
 E⃡ & \\
 \hline
@@ -593,12 +748,12 @@ b⃡  & \\
 \hline
 ∇⃡ & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 7: }The Recognition Theorem for ∞-Groupoids} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 11: }The Recognition Theorem for ∞-Groupoids} \\
 \hline \hline
  & \\
 \hline
  & \\
-\multicolumn{2}{||c||}{\texttt{Chapter 8: }The Classifying Space Theorem for ∞-Groupoids} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 12: }The Classifying Space Theorem for ∞-Groupoids} \\
 \hline \hline
  & \\
 \hline
@@ -606,13 +761,13 @@ b⃡  & \\
 \hline \hline
 \multicolumn{2}{||c||}{\texttt{PART III: } ∞-CATEGORIES} \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 9: }Operadic Categories and Operadic Presheaves} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 13: }Operadic Categories and Operadic Presheaves} \\
 \hline \hline
 OperadicCategory & \\
 \hline
 OperadicPresheaves & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 10: }The Recognition Theorem for ∞-Categories} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 14: }The Recognition Theorem for ∞-Categories} \\
 \hline \hline
 E⃗  & \\ 
 \hline
@@ -626,13 +781,13 @@ b⃗ & \\
 \hline
 ∇⃗ & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 11: }The Recognition Theorem for ∞-Categories} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 15: }The Recognition Theorem for ∞-Categories} \\
 \hline \hline
  & \\
 \hline
  & \\
 \hline \hline
-\multicolumn{2}{||c||}{\texttt{Chapter 12: }The Classifying Space Theorem for ∞-Categories} \\
+\multicolumn{2}{||c||}{\texttt{Chapter 16: }The Classifying Space Theorem for ∞-Categories} \\
 \hline \hline
  & \\
 \hline
@@ -643,7 +798,24 @@ b⃗ & \\
 
 \chapter{Introduction}
 
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+\begin{center}
+\texttt{Implementation Progress}
+\end{center}
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+\begin{center}
+\texttt{Writing Progress}
+\end{center}
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+
 In ```TheWhiteheadTheoremandTwoVariations''', we will define six "internal" structures based on the ones found in ```Galois Theories''' by Janelidze and Borceux, as well as six ```operadic''' structures.
+
+\iffalse
+Ω⃗, Ω⃡, Ω⃗₀, Ω⃡₀ are the ones I construct and Ω Mathlib's.
+\fi
+
 
 \iffalse
 {\footnotesize
@@ -794,12 +966,7 @@ In ```InternalUniverses''', we showed the straightening/unstraightening categori
 
 In this section, we consider classifying spaces as well as a perspective about remembering information concerning a right or left adjoint applied to a particular functor or object in the following way: E and Ω and their respective five variations give  ```remembrant''' functors E-infinity and Ω-infinity, which each produce internal presheaves in respective derived categories.\\
 
-
-\begin{center}
-\texttt{Plans to prove three variations of the}\\
-\texttt{Whitehead theorem of homotopy groups in}\\
-\texttt{Lean 4, with extensive use of Mathlib 4}
-\end{center}
+An informative example is given by the classifying space of GLₙ(ℂ) as a discrete group, whose only nontrivial homotopy group is π₁(GLₙ(ℂ)) ≅ GLₙ(ℂ).\\
 
 \thispagestyle{empty}
 
@@ -863,6 +1030,18 @@ Continuous functions f : X ⭢ B.obj G correspond to
 
 
 
+\part{∞-BASED CONNECTED ∞-CATEGORIES}
+
+
+\chapter{Operadic Groupoids and Operadic Groupoid Actions}
+
+\chapter{The Recognition Theorem for ∞-Groupoids}
+
+\chapter{The Classifying Space Theorem for ∞-Groupoids}
+
+
+
+
 
 \part{∞-GROUPOIDS}
 
@@ -905,34 +1084,12 @@ b can be throught of as pushing information into...
 MAKE SURE TO INCLUDE //
 \fi
 
-
 \iffalse
-\chapter{ETCC Signature for linlib2024}
-
-\begin{enumerate}
-\item NDNI 
-\item NDNII 
-\item NDNIII 
-\end{enumerate}
-
-\begin{enumerate}
-\item The linlib signature is five binary digits (Bool × Bool) × (Bool × Bool) × Bool
-\item Order : λ(b : Bool × Bool) ↦ (0,0), (0,1), (1,0), (1,1) to 
-\item  : 
-\item 
-\item The third bit is the lowest r such that the object is an (n,r)-category, (n,r)-functor, (n,r)-natural transformation, or equation between (n,r)-natural transformations. We set r = 0 or 1 throughout the project.
-\item The fourth bit is "unitial vs. actional".
-\item The fifth bit is "lax vs. strict" and divides up our goals based on whether D(-) has been applied.
-\end{enumerate}
-
-The table on the next page describes a certain $2^8$ goals for 2024. The full identification number for the project is given by NDb₀b₁rb₃b₄, where b₀ and b₁ are the ND number, $\texttt{r = 0, 1}$ is the filling number, here confined to 0 or 1, b₃ refers to the lax or strict nature of the type, and b₄ refers to its unitial or actional nature.\\
-
-\fi
-
-
 \begin{center}
 \includegraphics[width=0.24\textwidth]{mastertable.png}  \\
 \end{center}
+\fi
+
 \thispagestyle{empty}
 
 \newpage
@@ -1060,10 +1217,13 @@ Iteration of the six operadic structures n times will give one of six versions o
 
 \begin{enumerate}
 \item Serre, Jean-Pierre. "Homologie singulière des espaces fibrés. Applications." Annals of Mathematics 54, no. 3 (1951): 425-505.
-\item
 \end{enumerate}
 
+Further reading:
 
+\begin{enumerate}
+\item \href{https://math.ucr.edu/home/baez/calgary/BG.html}{A blog post of John Baez on Generalized Cohomology Theories and Eilenberg-Mac Lane Spaces}
+\end{enumerate}
 
 
 
